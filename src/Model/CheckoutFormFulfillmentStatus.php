@@ -49,7 +49,8 @@ class CheckoutFormFulfillmentStatus
     const READY_FOR_SHIPMENT = 'READY_FOR_SHIPMENT';
     const SENT = 'SENT';
     const CANCELLED = 'CANCELLED';
-    
+    const PICKED_UP = 'PICKED_UP';
+
     /**
      * Gets allowable values of the enum
      * @return string[]
@@ -62,6 +63,7 @@ class CheckoutFormFulfillmentStatus
             self::READY_FOR_SHIPMENT,
             self::SENT,
             self::CANCELLED,
+            self::PICKED_UP,
         ];
     }
 }
