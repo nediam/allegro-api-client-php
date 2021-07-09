@@ -50,6 +50,7 @@ class OrderEventType
     const BUYER_CANCELLED = 'BUYER_CANCELLED';
     const FULFILLMENT_STATUS_CHANGED = 'FULFILLMENT_STATUS_CHANGED';
     const BUYER_MODIFIED = 'BUYER_MODIFIED';
+    const AUTO_CANCELLED = 'AUTO_CANCELLED';
 
     /**
      * Gets allowable values of the enum
@@ -64,6 +65,7 @@ class OrderEventType
             self::BUYER_CANCELLED,
             self::FULFILLMENT_STATUS_CHANGED,
             self::BUYER_MODIFIED,
+            self::AUTO_CANCELLED,
         ];
     }
 }
